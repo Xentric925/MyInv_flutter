@@ -1,0 +1,146 @@
+name: MyInv_flutter
+description: It is about a complete ecommerce app for Android and iOS. 
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.5  
+  card_swiper: ^2.0.4
+  flutter_staggered_grid_view: ^0.6.2
+  rubber: ^1.0.1
+  pin_code_text_field: ^1.8.0
+  http: ^0.13.4
+  flutter_rating_bar: ^4.0.0
+  intl: ^0.18.0
+  numberpicker: ^2.1.1
+  flutter_svg: ^2.0.2
+  video_player: ^2.8.1
+  font_awesome_flutter: ^10.6.0
+  google_fonts: ^4.0.4
+  crypto: ^3.0.3
+  uno: ^1.1.1
+  dio: ^5.4.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.12.0
+  build_runner: ^2.0.4
+  json_serializable: ^6.6.1
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/shopeLogo.png"
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/promotional/
+    - assets/background.jpg
+    - assets/Fonts/
+    - assets/Fonts/fontawesome-free-6.4.2-web/
+    - assets/Fonts/fontawesome-free-6.4.2-web/js/
+    - assets/Fonts/fontawesome-free-6.4.2-web/css/
+    - assets/Fonts/fontawesome-free-6.4.2-web/less/
+    - assets/Fonts/fontawesome-free-6.4.2-web/scss/
+    - assets/Fonts/fontawesome-free-6.4.2-web/svgs/
+    - assets/Fonts/fontawesome-free-6.4.2-web/svgs/solid/
+    - assets/Fonts/fontawesome-free-6.4.2-web/svgs/brands/
+    - assets/Fonts/fontawesome-free-6.4.2-web/svgs/regular/
+    - assets/Fonts/fontawesome-free-6.4.2-web/sprites/
+    - assets/Fonts/fontawesome-free-6.4.2-web/metadata/
+    - assets/Fonts/fontawesome-free-6.4.2-web/webfonts/
+    - assets/Fonts/fontawesome-free-6.4.2-desktop/
+    - assets/Fonts/fontawesome-free-6.4.2-desktop/otfs/
+    - assets/Fonts/fontawesome-free-6.4.2-desktop/svgs/
+    - assets/Fonts/fontawesome-free-6.4.2-desktop/svgs/solid/
+    - assets/Fonts/fontawesome-free-6.4.2-desktop/svgs/brands/
+    - assets/Fonts/fontawesome-free-6.4.2-desktop/svgs/regular/
+    - assets/Fonts/fontawesome-free-6.4.2-desktop/metadata/
+    - assets/icons/svgs/
+    - assets/icons/svgs/solid/
+    - assets/icons/svgs/brands/
+    - assets/icons/svgs/regular/
+    - assets/background2.png
+    - lib/
+    - lib/models/
+    - lib/screens/
+    - lib/screens/auth/
+    - lib/screens/main/
+    - lib/screens/main/components/
+    - lib/screens/shop/
+    - lib/screens/shop/components/
+    - lib/screens/rating/
+    - lib/screens/wallet/
+    - lib/screens/address/
+    - lib/screens/payment/
+    - lib/screens/product/
+    - lib/screens/product/components/
+    - lib/screens/category/
+    - lib/screens/category/components/
+    - lib/screens/settings/
+    - lib/screens/send_money/
+    - lib/screens/request_money/
+    - lib/generated/
+    - lib/AlertDialogs/
+    - assets/Product_Images/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+  - family: Montserrat
+    fonts:
+    - asset: fonts/Montserrat-Regular.ttf
+  - family: NunitoSans
+    fonts:
+    - asset: fonts/NunitoSans-Regular.ttf
+  - family: FontAwesome
+    fonts:
+      - asset: assets/fonts/fontawesome-free-6.4.2-web/webfonts/fa-solid-900.ttf
+      - asset: assets/fonts/fontawesome-free-6.4.2-web/webfonts/fa-brands-400.ttf
+      - asset: assets/fonts/fontawesome-free-6.4.2-web/webfonts/fa-regular-400.ttf
+      - asset: assets/fonts/fontawesome-free-6.4.2-web/webfonts/fa-v4compatibility.ttf
+      - asset: assets/fonts/fontawesome-free-6.4.2-desktop/otfs/Font Awesome 6 Brands-Regular-400.otf
+      - asset: assets/fonts/fontawesome-free-6.4.2-desktop/otfs/Font Awesome 6 Free-Regular-400.otf
+      - asset: assets/fonts/fontawesome-free-6.4.2-desktop/otfs/Font Awesome 6 Free-Solid-900.otf
